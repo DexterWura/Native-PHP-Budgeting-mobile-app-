@@ -1,0 +1,25 @@
+{
+  "appId": "com.budgettracker.app",
+  "appName": "Budget Tracker",
+  "webDir": ".",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "hostname": "your-domain.com",
+    "allowNavigation": []
+  },
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "backgroundColor": "#007AFF",
+      "showSpinner": true,
+      "spinnerColor": "#ffffff"
+    }
+  }
+}
+
